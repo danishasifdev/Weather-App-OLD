@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&display=swap");
+
+body {
+  font-family: "Cinzel Decorative", cursive;
+  font-size: 2rem;
+  /* height: 100vh; */
+  color: #222;
+  background-color: #eabfb9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  font-family: inherit;
+  color: inherit;
+  background-color: #f0d2ce;
+}
+
+input:focus {
+  outline: 2px solid #956868;
+}
+
+.day.important {
+  background-color: #ecc5c0;
+  outline: 2px solid #222;
+}
